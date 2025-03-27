@@ -1,1 +1,15 @@
-# Formative-Project---Product-Catalog-API
+- Product Catalog API is a Node.js and Express.js-based RESTful API for managing e-commerce products, categories, variants, and inventory.  
+-Built with: MongoDB for data storage and **Joi** for structured validation.  
+- Setup: 
+  - Clone the repository and install dependencies.  
+  - Configure a `.env` file with `PORT` and `MONGO_URI`.  
+  - Start the server with `npm run dev`.  
+- Core Features:  
+  - CRUD operations for products (`/api/products`), categories (`/api/categories`), and inventory (`/api/inventory`).  
+  - Product search via `/api/search`.  
+  - Stock level tracking and category assignment.  
+- Assumptions & Limitations:  
+  - Requires a valid MongoDB connection.  
+  - Input validation enforced via **Joi**.  
+  - No authentication or role-based access (planned future enhancement).  
+  - Lacks automated inventory updates and advanced search capabilities (possible future improvements).
